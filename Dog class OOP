@@ -1,0 +1,17 @@
+class Dog {
+  
+  int age ;
+//constructor 
+	public Dog(int dogsAge) {
+    
+  	age =  dogsAge;
+    
+  }
+
+
+	public static void main(String[] args) {
+// intance of the Dog class
+    Dog spike = new Dog(3);
+	}
+
+}
